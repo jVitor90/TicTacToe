@@ -1,5 +1,5 @@
 
-#Tic tac toe em C#
+##Tic tac toe em C#
 
 Projeto simples desenvolido no curso técnico em desenvolvimento de sistemas no senac de Pindamonhamgaba.
 
