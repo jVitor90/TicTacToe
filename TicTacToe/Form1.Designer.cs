@@ -69,6 +69,7 @@
             this.PicbReset.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicbReset.TabIndex = 19;
             this.PicbReset.TabStop = false;
+            this.PicbReset.Click += new System.EventHandler(this.PicbReset_Click);
             // 
             // PicbSair
             // 
@@ -97,61 +98,67 @@
             // 
             this.Btn11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn11.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn11.Location = new System.Drawing.Point(154, 127);
+            this.Btn11.Location = new System.Drawing.Point(156, 127);
             this.Btn11.Name = "Btn11";
             this.Btn11.Size = new System.Drawing.Size(111, 92);
             this.Btn11.TabIndex = 21;
             this.Btn11.UseVisualStyleBackColor = true;
+            this.Btn11.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn12
             // 
             this.Btn12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn12.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn12.Location = new System.Drawing.Point(293, 127);
+            this.Btn12.Location = new System.Drawing.Point(295, 127);
             this.Btn12.Name = "Btn12";
             this.Btn12.Size = new System.Drawing.Size(111, 92);
             this.Btn12.TabIndex = 22;
             this.Btn12.UseVisualStyleBackColor = true;
+            this.Btn12.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn13
             // 
             this.Btn13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn13.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn13.Location = new System.Drawing.Point(432, 127);
+            this.Btn13.Location = new System.Drawing.Point(434, 127);
             this.Btn13.Name = "Btn13";
             this.Btn13.Size = new System.Drawing.Size(111, 92);
             this.Btn13.TabIndex = 23;
             this.Btn13.UseVisualStyleBackColor = true;
+            this.Btn13.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn22
             // 
             this.Btn22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn22.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn22.Location = new System.Drawing.Point(293, 267);
+            this.Btn22.Location = new System.Drawing.Point(295, 267);
             this.Btn22.Name = "Btn22";
             this.Btn22.Size = new System.Drawing.Size(111, 92);
             this.Btn22.TabIndex = 24;
             this.Btn22.UseVisualStyleBackColor = true;
+            this.Btn22.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn21
             // 
             this.Btn21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn21.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn21.Location = new System.Drawing.Point(154, 267);
+            this.Btn21.Location = new System.Drawing.Point(156, 267);
             this.Btn21.Name = "Btn21";
             this.Btn21.Size = new System.Drawing.Size(111, 92);
             this.Btn21.TabIndex = 25;
             this.Btn21.UseVisualStyleBackColor = true;
+            this.Btn21.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn23
             // 
             this.Btn23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn23.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn23.Location = new System.Drawing.Point(432, 267);
+            this.Btn23.Location = new System.Drawing.Point(434, 267);
             this.Btn23.Name = "Btn23";
             this.Btn23.Size = new System.Drawing.Size(111, 92);
             this.Btn23.TabIndex = 26;
             this.Btn23.UseVisualStyleBackColor = true;
+            this.Btn23.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn31
             // 
@@ -162,6 +169,7 @@
             this.Btn31.Size = new System.Drawing.Size(111, 92);
             this.Btn31.TabIndex = 27;
             this.Btn31.UseVisualStyleBackColor = true;
+            this.Btn31.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn32
             // 
@@ -172,6 +180,7 @@
             this.Btn32.Size = new System.Drawing.Size(111, 92);
             this.Btn32.TabIndex = 28;
             this.Btn32.UseVisualStyleBackColor = true;
+            this.Btn32.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // Btn33
             // 
@@ -182,12 +191,13 @@
             this.Btn33.Size = new System.Drawing.Size(111, 92);
             this.Btn33.TabIndex = 29;
             this.Btn33.UseVisualStyleBackColor = true;
+            this.Btn33.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // LblInfo
             // 
             this.LblInfo.AutoSize = true;
             this.LblInfo.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblInfo.ForeColor = System.Drawing.Color.Black;
+            this.LblInfo.ForeColor = System.Drawing.Color.Red;
             this.LblInfo.Location = new System.Drawing.Point(18, 22);
             this.LblInfo.Name = "LblInfo";
             this.LblInfo.Size = new System.Drawing.Size(159, 31);
